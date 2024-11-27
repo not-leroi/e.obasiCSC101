@@ -40,7 +40,7 @@ fn main() {
     println!("Order Summary:");
     println!("Your order is {}", order);
     if total_price >10000{
-        println!("You get a discount of 5%! Your bill is N{}",total_price as f32 * 0.95 );
+        println!("You get a discount of 5%! Your bill is N{}",total_price as f32 * 0.95  );
     }else {
         println!("Your bill is N{}",final_total );
     }
